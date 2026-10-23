@@ -1,0 +1,609 @@
+PROJECT: ALMAZ & ANEL — PREMIUM WEDDING INVITATION WEBSITE
+
+1. ROLE AND MAIN OBJECTIVE
+
+Act as a senior full-stack developer, UI/UX designer, motion designer, and frontend engineer with 15+ years of professional experience.
+
+Build a complete, beautiful, premium, responsive wedding invitation website for Almaz & Anel.
+
+The website must closely follow the reference screenshots provided by the user. Carefully reproduce their visual style, typography, colors, spacing, decorative elements, layout, and animations while adapting all content to the wedding of Almaz & Anel.
+
+Do not create a generic wedding template. The result must feel like a carefully designed luxury digital wedding invitation.
+
+Implement the actual working application, not just a mockup, wireframe, or design description.
+
+2. WEDDING INFORMATION
+
+Groom: Алмаз
+Bride: Анел
+Wedding date: November 16, 2026
+Wedding location: Anel Grand Hall
+City: Bishkek, Kyrgyzstan
+Address: Курманжан Датка көчөсү, 267
+Wedding ceremony starts at: 16:00
+
+All wedding information must be consistent throughout the website.
+
+3. VISUAL DESIGN — FOLLOW THE REFERENCES
+
+Use the uploaded reference screenshots as the primary design specification.
+
+Color palette
+
+- Warm ivory / cream background: #F8F5EC
+- Deep forest green: #244A38
+- Dark green accents: #173D2D
+- Antique gold: #B69A5B
+- Elegant burgundy red: #AD3439
+- Dark charcoal text: #303942
+- White: #FFFFFF
+
+Use subtle color variations to match the references.
+
+Typography
+
+Use elegant, premium typography:
+
+- Couple names: refined italic serif or calligraphic script.
+- Section headings: elegant cursive typography.
+- Body text: readable serif typography.
+- Dates and small labels: uppercase serif with generous letter spacing.
+- Event times: bold italic serif.
+
+Recommended Google Fonts:
+
+- Cormorant Garamond
+- Playfair Display
+- Great Vibes
+
+Select font weights and combinations that most closely resemble the reference screenshots.
+
+Ensure that Kyrgyz and Russian Cyrillic characters display correctly. If a decorative font lacks Cyrillic support, use an appropriate Cyrillic-compatible alternative.
+
+Decorative elements
+
+Reproduce the visual atmosphere of the references:
+
+- White flowers and dark green leaves.
+- Delicate gold divider lines.
+- Small heart ornaments.
+- Elegant circular event icons.
+- Soft shadows.
+- Thin borders.
+- Rounded cards.
+- Subtle floating petals.
+- Romantic hummingbird illustrations where appropriate.
+- Fine paper-like textures.
+- Gentle fade-in animations.
+
+Avoid excessive decorations. Maintain an elegant, spacious, premium appearance.
+
+4. PAGE 1 — ENVELOPE OPENING SCREEN
+
+Create a full-screen opening experience inspired by the first reference screenshot.
+
+The initial screen must display:
+
+- Deep forest-green background.
+- Elegant white floral decorations.
+- Gold lettering.
+- The text "ҮЙЛӨНҮҮ ТОЙГО ЧАКЫРУУ".
+- Couple names "Алмаз & Анел".
+- Wedding date "16 · 11 · 2026".
+- A large realistic-looking invitation envelope.
+- A gold wax seal featuring a delicate botanical ornament.
+
+The envelope must be interactive.
+
+Envelope interaction
+
+When the visitor taps or clicks the envelope or wax seal:
+
+1. Animate the wax seal and envelope opening.
+2. Reveal the invitation page with a smooth, elegant transition.
+3. Start the wedding background music.
+4. Continue the music while the visitor browses the invitation.
+5. Provide a visible music control to pause or resume playback.
+6. Prevent the opening animation from accidentally triggering multiple times.
+
+Use CSS animations or Framer Motion for the envelope animation.
+
+IMPORTANT: Start music directly from the user's envelope-opening click or tap event to comply with browser autoplay restrictions. Handle playback errors gracefully and provide a visible play button if playback is blocked.
+
+Do not use copyrighted music unless the user provides a file or has permission to use it.
+
+5. PAGE 2 — MAIN INTRODUCTION
+
+Use a warm ivory background with subtle floral decorations in the corners.
+
+At the top, include language controls:
+
+- KG
+- RU
+
+Display the main couple image or romantic image supplied by the user.
+
+Use a beautiful composition with generous empty space, elegant typography, and a small downward scroll indicator.
+
+Display:
+
+"Алмаз & Анел"
+
+"16 · 11 · 2026"
+
+Below the names, show a subtle animated downward arrow or chevron to encourage scrolling.
+
+Keep the layout optimized for vertical smartphone screens.
+
+6. PAGE 3 — WEDDING INVITATION MESSAGE
+
+Create an elegant section matching the third reference screenshot.
+
+Use floral branches near the upper corners, thin gold lines, and small heart ornaments.
+
+Display the following Kyrgyz text exactly:
+
+"Кымбаттуу!"
+
+"БИЗДИН ӨМҮРҮБҮЗДӨГҮ
+ЭҢ КООЗ КҮНҮБҮЗГӨ
+СИЗДЕРДИ ЧЫН ЖҮРӨКТӨН ЧАКЫРАБЫЗ!"
+
+"Бул өзгөчө күнүбүздө
+сиздер менен бирге болуу —
+биз үчүн чоң бакыт."
+
+Maintain beautiful line breaks and generous vertical spacing.
+
+Do not replace the Kyrgyz text with placeholder content.
+
+7. PAGE 4 — WEDDING CALENDAR
+
+Build a functional wedding calendar matching the supplied reference screenshots.
+
+Wedding date: November 16, 2026.
+
+Display:
+
+- Month: НОЯБРЬ
+- Year: 2026
+- Wedding day: 16
+- Ceremony start time: 16:00
+
+Create a real November 2026 calendar grid with seven weekday columns.
+
+Use Kyrgyz weekday abbreviations:
+
+- ДШ
+- ШШ
+- ШР
+- БШ
+- ЖМ
+- ИШ
+- ЖК
+
+The calendar must correctly position November 16, 2026. Highlight day 16 using an elegant red heart outline and a subtle underline.
+
+Add the heading:
+
+"БАШТАЛЫШЫ"
+
+Display:
+
+"16:00"
+
+Add a rounded button:
+
+"КАЛЕНДАРГА КОШУУ"
+
+The button must generate or download a valid .ics calendar event for November 16, 2026, at 16:00 Bishkek local time.
+
+Use the Asia/Bishkek timezone, UTC+06:00.
+
+The calendar event should include:
+
+- Event title: "Үйлөнүү тою — Алмаз & Анел"
+- Date: November 16, 2026
+- Start time: 16:00
+- Location: Anel Grand Hall, Бишкек, Курманжан Датка көчөсү, 267
+
+Use a correct calendar date calculation rather than hardcoding an inaccurate weekday.
+
+8. PAGE 5 — LIVE COUNTDOWN TIMER
+
+Create a premium countdown card inspired by the supplied reference.
+
+Heading:
+
+"Тойго чейин:"
+
+Display four elegant circular counters:
+
+- КҮН
+- СААТ
+- МҮН
+- СЕК
+
+Count down to November 16, 2026, at 16:00 Asia/Bishkek time.
+
+Requirements:
+
+- Update every second.
+- Calculate the remaining time accurately.
+- Handle the moment when the countdown reaches zero.
+- Never display negative time.
+- Display a graceful completed-state message after the event begins.
+- Use responsive circular counters with thin gold borders and subtle shadows.
+
+The countdown must use the actual wedding date, not a hardcoded sample number.
+
+9. PAGE 6 — WEDDING PROGRAM
+
+Create a beautiful vertical wedding timeline closely matching the reference screenshots.
+
+Section heading:
+
+"Тойдун жүрүшү:"
+
+Create five event cards connected by a flowing burgundy-red curved line.
+
+Use alternating card placement:
+
+- First event: card on the right.
+- Second event: card on the left.
+- Third event: card on the right.
+- Fourth event: card on the left.
+- Fifth event: card on the right.
+
+Each event must have:
+
+- A circular icon with a white background.
+- A thin gold border.
+- A subtle shadow.
+- A time displayed in bold italic typography.
+- An uppercase description in elegant serif typography.
+
+Events:
+
+EVENT 1
+Time: 15:00
+Title: КОНОКТОРДУ ТОСУУ
+Icon: Elegant car illustration.
+
+EVENT 2
+Time: 16:00
+Title: НИКЕ ӨТКӨРҮҮ
+Icon: Two wedding rings.
+
+EVENT 3
+Time: 17:00
+Title: БАНКЕТТИН БАШТАЛЫШЫ
+Icon: Two elegant champagne glasses.
+
+EVENT 4
+Time: 19:00
+Title: КЕЧКИ ТАМАК
+Icon: Elegant dinner plate with cutlery.
+
+EVENT 5
+Time: 21:00
+Title: ТОРТ ЖАНА МАЙРАМ
+Icon: Beautiful wedding cake.
+
+Use consistent icon sizes and spacing.
+
+The curved timeline must adapt to mobile screens without horizontal overflow.
+
+Add subtle scroll-triggered animations to the timeline cards.
+
+Do not make the animations distracting.
+
+10. PAGE 7 — BANQUET HALL
+
+After the wedding timeline, create a section with the heading:
+
+"Банкет"
+
+Use the first restaurant interior photograph supplied by the user as the main banquet hall image.
+
+Display it in a large, elegant image container with:
+
+- Rounded corners.
+- Natural image proportions.
+- Subtle shadows.
+- A refined premium presentation.
+
+The image must be easy to replace through the project's assets folder.
+
+Do not substitute the supplied restaurant image with an unrelated stock photograph.
+
+11. PAGE 8 — INVITATION AND ADDRESS
+
+Display the following Kyrgyz text:
+
+"Сиздерди сүйүү, жылуулук жана кубаныч толгон кечки майрамыбызда күтөбүз!"
+
+Below it, display:
+
+"Дареги:"
+
+"Бишкек шаары,
+Anel Grand Hall рестораны,
+Курманжан Датка көчөсү, 267."
+
+Use the cream background, elegant cursive heading, dark-green accents, and thin gold heart dividers from the reference.
+
+Map button
+
+Create a prominent rounded dark-green button:
+
+"КАРТАДАН КӨРҮҮ"
+
+Use a map-pin icon.
+
+The button must open a map search for Anel Grand Hall at the supplied Bishkek address.
+
+Do not invent exact GPS coordinates.
+
+Taxi button
+
+Create a secondary cream-colored button:
+
+"ТАКСИ ЧАКЫРУУ"
+
+Use a taxi icon.
+
+Make the button functional by opening a map or ride-service destination link where supported. Do not claim that a taxi has been ordered.
+
+12. PAGE 9 — RESTAURANT PHOTO GALLERY
+
+Create a premium gallery with exactly three restaurant photographs supplied by the user.
+
+Images:
+
+1. Restaurant interior with elegant banquet tables, floral ceiling decorations, and a chandelier.
+2. Outdoor wedding ceremony area with a floral arch and rows of chairs.
+3. Elegant white wedding cake decorated with greenery and flowers.
+
+Use the actual supplied images.
+
+Requirements:
+
+- Responsive image gallery.
+- Rounded corners.
+- Natural aspect ratios.
+- Soft shadows.
+- Elegant spacing.
+- Optional lightbox when a visitor taps an image.
+- Smooth transitions.
+- Accessible image descriptions.
+
+The first restaurant interior photograph may also be used in the banquet section.
+
+Organize images in a clearly named assets folder so they can be replaced easily.
+
+Do not leave broken image links or empty gallery placeholders in the completed project.
+
+13. PAGE 10 — FINAL WEDDING SCREEN
+
+Create a romantic closing section inspired by the final reference screenshot.
+
+Use:
+
+- Soft cream or pale ivory background.
+- Elegant floral branches.
+- Green leaves.
+- White flowers.
+- Gentle floating petals.
+- A romantic, understated atmosphere.
+
+Display:
+
+"Алмаз & Анел"
+
+"16 · 11 · 2026"
+
+Add a small red heart ornament.
+
+Display:
+
+"Сүйүнүч менен күтөбүз!"
+
+Use beautiful typography and generous spacing.
+
+The final section should feel emotional, elegant, and memorable.
+
+14. LANGUAGE SWITCHING
+
+Implement functional KG and RU language switching.
+
+The default language should be Kyrgyz.
+
+When RU is selected, translate the website interface and invitation content into natural Russian.
+
+When KG is selected, display the original Kyrgyz content.
+
+Requirements:
+
+- All section headings must change.
+- All wedding program event titles must change.
+- Calendar controls must change.
+- Countdown labels must change.
+- Address and invitation text must change.
+- Buttons must change.
+- Preserve the couple's names and date.
+- Preserve the same design in both languages.
+- Remember the selected language during the current browsing session.
+
+Do not create decorative language buttons that do nothing.
+
+15. MUSIC PLAYER
+
+Implement a working music player.
+
+Requirements:
+
+- Use the user's supplied music file when available.
+- Put the file in a clearly named public/assets/music folder.
+- Start playback after the visitor opens the envelope.
+- Add a visible play/pause control.
+- Keep music playing while scrolling between sections.
+- Avoid creating multiple simultaneous audio instances.
+- Handle missing audio files and playback errors gracefully.
+
+If no music file has been provided, create a clearly documented asset location and explain where the user should add the file.
+
+Never pretend music is playing when the audio file is missing.
+
+16. TECHNICAL STACK
+
+Use a modern, maintainable frontend architecture.
+
+Preferred stack:
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS or well-organized CSS modules
+- Framer Motion for animations, if useful
+- Lucide React for interface icons
+
+Use only dependencies that are necessary.
+
+If the existing GitHub repository already contains a working framework, inspect it first and preserve the appropriate project structure rather than replacing it unnecessarily.
+
+Implement reusable components such as:
+
+- EnvelopeOpening
+- LanguageSwitcher
+- MusicPlayer
+- WeddingHero
+- InvitationMessage
+- WeddingCalendar
+- CountdownTimer
+- WeddingTimeline
+- BanquetSection
+- AddressSection
+- RestaurantGallery
+- WeddingFooter
+
+Keep wedding information in a central configuration file so names, dates, times, translations, and images can be updated easily.
+
+17. RESPONSIVE DESIGN
+
+The website must work well on:
+
+- Android phones.
+- iPhones.
+- Tablets.
+- Desktop browsers.
+- Windows 11 computers.
+
+Mobile is the primary target.
+
+Requirements:
+
+- Mobile-first layout.
+- No horizontal scrolling.
+- Readable typography.
+- Correct image scaling.
+- Comfortable touch targets.
+- Smooth vertical scrolling.
+- Responsive timeline cards.
+- Appropriate spacing on small screens.
+- Reduced-motion support for users who prefer fewer animations.
+
+The site should look like a premium wedding invitation, not an ordinary business website.
+
+18. ACCESSIBILITY AND PERFORMANCE
+
+Implement:
+
+- Semantic HTML.
+- Accessible button labels.
+- Keyboard navigation.
+- Visible focus states.
+- Alternative text for images.
+- Appropriate color contrast.
+- Reduced-motion support.
+- Optimized image loading.
+- Lazy loading for below-the-fold images.
+- Correct page metadata.
+- A suitable browser title: "Алмаз & Анел — Үйлөнүү тоюна чакыруу".
+
+Do not lazy-load the primary hero image if doing so would delay the opening experience.
+
+19. TESTING AND QUALITY CONTROL
+
+Before declaring the project complete:
+
+1. Install the required dependencies.
+2. Run the production build.
+3. Fix TypeScript errors.
+4. Fix build errors.
+5. Test all sections.
+6. Verify the countdown against November 16, 2026, at 16:00 Bishkek time.
+7. Verify the November 2026 calendar grid.
+8. Verify the calendar download.
+9. Test KG/RU language switching.
+10. Test envelope opening.
+11. Test music playback after user interaction.
+12. Test the music play/pause control.
+13. Verify all restaurant images load.
+14. Verify the map button opens the correct address search.
+15. Check for mobile horizontal overflow.
+16. Check that no buttons are decorative-only when they are supposed to work.
+17. Check for console errors.
+18. Verify that all supplied Kyrgyz text is preserved correctly.
+
+Do not mark tests as passed unless they have actually been run.
+
+20. GITHUB AND DEPLOYMENT
+
+Inspect the current repository before making changes.
+
+If the repository is empty, create the complete project structure.
+
+Implement the entire application and organize its files logically.
+
+Include a README.md containing:
+
+- Project overview.
+- Technology stack.
+- Installation instructions.
+- Local development instructions.
+- Production build instructions.
+- Instructions for replacing restaurant photographs.
+- Instructions for adding the music file.
+- Instructions for updating the wedding date and text.
+- Instructions for deploying the site.
+
+Prepare the project for deployment on GitHub Pages or another compatible static hosting service.
+
+If GitHub Pages is selected, configure the correct Vite base path and deployment workflow where appropriate.
+
+Do not claim that the website is deployed unless deployment has actually succeeded.
+
+21. FINAL ACCEPTANCE CRITERIA
+
+The project is complete only when:
+
+- The complete invitation website has been implemented.
+- The design closely follows the supplied visual references.
+- The opening envelope works.
+- Music starts when the envelope is opened, provided the audio file is available.
+- The countdown uses the correct wedding date and time.
+- The calendar displays the correct date.
+- All five wedding program events are present.
+- The restaurant photographs are integrated.
+- The address and map button work.
+- KG/RU switching works.
+- The website is responsive.
+- The production build succeeds.
+- The README explains how to run and customize the project.
+
+Do not stop after producing a plan or a partial mockup.
+
+Implement the full working website, run the available checks, fix discovered issues, and provide a concise summary of the files created, test results, and deployment steps.
+
+Use the uploaded reference screenshots as the design source of truth. Preserve the wedding details exactly as specified above.
